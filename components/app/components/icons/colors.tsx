@@ -1,6 +1,6 @@
 import React from "react";
 
-import Icon from "ra-icons/dist/icon";
+import Icon from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, StyleSheet } from "react-native";
 
-import { Check } from "ra-inputs";
+import { Check } from "@flexnative/inputs";
 import Example, { ExampleContainer } from "./example-container";
 
 

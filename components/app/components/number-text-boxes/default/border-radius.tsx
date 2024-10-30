@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -12,15 +12,15 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Border Radius'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='none' radius='none'/>
-            <NumberTextBox placeholder='medium' radius='medium'/>
-            <NumberTextBox placeholder='full radius' radius='full'/>
+            <NumericTextBox placeholder='none' radius='none'/>
+            <NumericTextBox placeholder='medium' radius='medium'/>
+            <NumericTextBox placeholder='full radius' radius='full'/>
           </View>
           
           <View style={styles.column}>
-            <NumberTextBox placeholder='small' radius='small'/>
-            <NumberTextBox placeholder='large' radius='large' />
-            <NumberTextBox placeholder='12' radius={12} />
+            <NumericTextBox placeholder='small' radius='small'/>
+            <NumericTextBox placeholder='large' radius='large' />
+            <NumericTextBox placeholder='12' radius={12} />
           </View>
         </View>
       </DemoBlock>

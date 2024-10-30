@@ -1,8 +1,7 @@
 import React from "react";
 import { Text, ColorValue, Pressable, PressableStateCallbackType, StyleProp, StyleSheet, ViewStyle } from "react-native";
 
-import { IconName } from "ra-icons";
-import { icons } from "ra-icons/dist/props";
+import { IconName, icons } from "@flexnative/icons";
 
 import { ACTION_SIZE, ICON_SIZE } from "./constants";
 

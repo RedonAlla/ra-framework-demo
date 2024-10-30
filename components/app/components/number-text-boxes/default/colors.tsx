@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -12,27 +12,27 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Color'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='primary' color='primary'/>
-            <NumberTextBox placeholder='dark' color='dark'/>
-            <NumberTextBox placeholder='info' color='info'/>
-            <NumberTextBox placeholder='warning' color='warning' />
-            <NumberTextBox placeholder='default' color='default'/>
-            <NumberTextBox placeholder='rgb(237, 20, 61)' color='rgb(237, 20, 61)'/>
+            <NumericTextBox placeholder='primary' color='primary'/>
+            <NumericTextBox placeholder='dark' color='dark'/>
+            <NumericTextBox placeholder='info' color='info'/>
+            <NumericTextBox placeholder='warning' color='warning' />
+            <NumericTextBox placeholder='default' color='default'/>
+            <NumericTextBox placeholder='rgb(237, 20, 61)' color='rgb(237, 20, 61)'/>
           </View>
 
           <View style={styles.column}>
-            <NumberTextBox placeholder='secondary' color='secondary'/>
-            <NumberTextBox placeholder='light' color='light'/>
-            <NumberTextBox placeholder='success' color='success'/>
-            <NumberTextBox placeholder='error' color='error'/>
-            <NumberTextBox placeholder='crimson' color='crimson'/>
-            <NumberTextBox placeholder='#ed143d' color='#ed143d'/>
+            <NumericTextBox placeholder='secondary' color='secondary'/>
+            <NumericTextBox placeholder='light' color='light'/>
+            <NumericTextBox placeholder='success' color='success'/>
+            <NumericTextBox placeholder='error' color='error'/>
+            <NumericTextBox placeholder='crimson' color='crimson'/>
+            <NumericTextBox placeholder='#ed143d' color='#ed143d'/>
           </View>
         </View>
         
         <View style={styles.row}>
           <View style={{flex: 1, paddingTop: GAP}}>
-            <NumberTextBox placeholder='rgba(237, 20, 61, 0.5)' color='rgba(237, 20, 61, 0.5)'/>
+            <NumericTextBox placeholder='rgba(237, 20, 61, 0.5)' color='rgba(237, 20, 61, 0.5)'/>
           </View>
         </View>
       </DemoBlock>

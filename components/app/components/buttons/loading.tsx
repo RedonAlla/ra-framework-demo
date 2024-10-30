@@ -1,8 +1,8 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import Button from 'ra-buttons';
-import { Spinner } from "ra-icons";
+import Button from '@flexnative/buttons';
+import { Spinner } from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "../../constants";
 

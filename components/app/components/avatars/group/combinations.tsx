@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet } from 'react-native';
 
-import Avatar, { AvatarGroup } from 'ra-avatar';
+import Avatar, { AvatarGroup } from '@flexnative/avatar';
 import DemoBlock from "@/components/app/DemoBlock";
 import { avatar } from "../avatar";
 

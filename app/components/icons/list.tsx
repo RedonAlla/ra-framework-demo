@@ -1,10 +1,9 @@
 import React from 'react';
 import { StyleSheet, View, Text, ColorValue, ListRenderItem, FlatList, Platform } from 'react-native';
 
-import Icon from 'ra-icons/dist/icon';
-import { IconName, icons } from 'ra-icons/dist/props';
-import ThemeContext from 'ra-theme-context';
-import { formatData } from 'ra-utilities/dist/list.utilities';
+import Icon, { IconName, icons } from '@flexnative/icons';
+import ThemeContext from '@flexnative/theme-context';
+import { formatData } from '@flexnative/utilities';
 
 import { WEB_MAX_SCREEN_WIDTH } from '@/components/app/constants';
 import { HEADER_HEIGHT, PADDING, TAB_NAV_HEIGHT } from '@/constants/sizes';

@@ -1,7 +1,7 @@
 import React from "react";
 import Alert from "@/components/app/Alert";
 
-import { Check } from "ra-inputs";
+import { Check } from "@flexnative/inputs";
 import { Block, ExampleContainer } from "./example-container";
 
 type ValueType = {

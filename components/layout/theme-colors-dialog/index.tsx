@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import BottomSheet from 'ra-bottom-sheet';
-import ThemeContext from 'ra-theme-context';
+import BottomSheet from '@flexnative/bottom-sheet';
+import ThemeContext from '@flexnative/theme-context';
 
 import { IPrimaryColors, primaryColors } from '@/constants/colors';
 import ColorItem from './color-item';

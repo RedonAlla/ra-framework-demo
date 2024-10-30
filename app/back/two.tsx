@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, ColorValue, StyleSheet } from 'react-native';
 
-import ThemeContext from 'ra-theme-context';
+import ThemeContext from '@flexnative/theme-context';
 
 import AnimatedLink from '@/components/atoms/AnimatedLink';
 import AppDemoIcon from '@/components/icons/AppDemo';

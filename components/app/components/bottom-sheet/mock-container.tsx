@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-import Button from 'ra-buttons';
+import Button from '@flexnative/buttons';
 
 
 type Props = {

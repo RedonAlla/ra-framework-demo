@@ -3,7 +3,7 @@ import { StyleSheet, Animated, Pressable } from 'react-native';
 import { Link } from 'expo-router';
 import { LinkProps } from 'expo-router/build/link/Link';
 
-import ThemeContext from 'ra-theme-context/dist/ThemeContext';
+import ThemeContext from '@flexnative/theme-context';
 
 
 interface StateProps {

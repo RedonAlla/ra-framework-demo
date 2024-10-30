@@ -1,7 +1,7 @@
 import { ColorSchemeName, Appearance, ColorValue } from 'react-native';
 
-import { ThemeProvider, BaseTheme, dark, light } from 'ra-theme-context';
-import Storage from 'ra-local-storage';
+import { ThemeProvider, BaseTheme, dark, light } from '@flexnative/theme-context';
+import { Storage } from '@flexnative/utilities';
 
 import { APP_THEME } from '@/constants/keys';
 import { DEFAULT_PRIMARY_COLOR } from '@/constants/colors';

@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 
-import Icon from "ra-icons";
-import Button from 'ra-buttons';
+import Icon from "@flexnative/icons";
+import Button from '@flexnative/buttons';
 
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "../../constants";

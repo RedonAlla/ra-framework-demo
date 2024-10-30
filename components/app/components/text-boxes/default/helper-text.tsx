@@ -1,6 +1,6 @@
 import React from "react";
 
-import TextBox from 'ra-inputs/dist/text-box';
+import { TextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 
 

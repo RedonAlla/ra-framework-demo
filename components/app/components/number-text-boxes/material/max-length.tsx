@@ -1,6 +1,6 @@
 import React from "react";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 
 
@@ -8,7 +8,7 @@ export default class extends React.PureComponent<{}, {}> {
   public render() {
     return (
       <DemoBlock title='Max length'>
-        <NumberTextBox material label='Max length' placeholder='Max length' maxLength={15} />
+        <NumericTextBox material label='Max length' placeholder='Max length' maxLength={15} />
       </DemoBlock>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import { Check, CheckList } from "ra-inputs";
+import { Check, CheckList } from "@flexnative/inputs";
 import { Block, ExampleContainer } from "../../check-boxes/example-container";
 import { GAP } from "@/components/app/constants";
 

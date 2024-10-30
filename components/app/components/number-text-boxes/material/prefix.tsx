@@ -1,8 +1,8 @@
 import React from "react";
 import { View, StyleSheet, Alert, Platform } from "react-native";
 
-import Icon from 'ra-icons';
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import Icon from '@flexnative/icons';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -13,10 +13,10 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Prefix'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox material label='Prefix' placeholder='Input with icon prefix' prefix="star" />
+            <NumericTextBox material label='Prefix' placeholder='Input with icon prefix' prefix="star" />
           </View>
           <View style={styles.column}>
-            <NumberTextBox material label='Prefix' placeholder='Input with custom element as prefix' prefix={<Prefix />} />
+            <NumericTextBox material label='Prefix' placeholder='Input with custom element as prefix' prefix={<Prefix />} />
           </View>
         </View>
       </DemoBlock>

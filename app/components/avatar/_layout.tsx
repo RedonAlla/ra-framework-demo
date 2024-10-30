@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 
-import ThemeContext from 'ra-theme-context';
+import ThemeContext from '@flexnative/theme-context';
 
 import TabLayout, { TabBarIcon } from '@/components/app/components/layout/tab-layout';
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
-import Tag from 'ra-tags';
+import Tag from '@flexnative/tags';
 import DemoBlock from "@/components/app/DemoBlock";
 
 export default class extends React.PureComponent<{}, {}> {

@@ -1,8 +1,8 @@
 import React from "react";
 import { View, StyleSheet, TextInput } from "react-native";
 
-import Button from 'ra-buttons';
-import BottomSheet from "ra-bottom-sheet";
+import Button from '@flexnative/buttons';
+import BottomSheet from "@flexnative/bottom-sheet";
 
 import DemoBlock from "@/components/app/DemoBlock";
 

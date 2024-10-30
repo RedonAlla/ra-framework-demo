@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Spinner } from "ra-icons";
+import { Spinner } from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 
 

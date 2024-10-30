@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Check } from "ra-inputs";
+import { Check } from "@flexnative/inputs";
 import Example, { ExampleContainer } from "./example-container";
 
 const items: Array<boolean> = [

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import TextBox from 'ra-inputs/dist/text-box';
+import { TextBox } from '@flexnative/inputs';
 
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";

@@ -1,7 +1,7 @@
 import React from "react";
 import Alert from "@/components/app/Alert";
 
-import { Check, CheckList } from "ra-inputs";
+import { Check, CheckList } from "@flexnative/inputs";
 import { Block, ExampleContainer } from "../../check-boxes/example-container";
 
 type ItemProps = { id: number, color: string; };

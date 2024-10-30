@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
-import Icon from "ra-icons/dist/icon";
+import Icon from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 
 

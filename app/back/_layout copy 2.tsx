@@ -4,7 +4,7 @@ import { Link, Tabs } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet } from 'react-native';
 
-import ThemeContext from 'ra-theme-context';
+import ThemeContext from '@flexnative/theme-context';
 
 import { useColorScheme } from '@/components/useColorScheme';
 import { HeaderBackground } from '@/components/layout/headers';

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -12,14 +12,14 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Border Width'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox material label='Border Width' placeholder='none (default)' borderWidth='none' />
-            <NumberTextBox material label='Border Width' placeholder='hairline' borderWidth='hairline' />
-            <NumberTextBox material label='Border Width' placeholder='thin' borderWidth='thin' />
+            <NumericTextBox material label='Border Width' placeholder='none (default)' borderWidth='none' />
+            <NumericTextBox material label='Border Width' placeholder='hairline' borderWidth='hairline' />
+            <NumericTextBox material label='Border Width' placeholder='thin' borderWidth='thin' />
           </View>
           <View style={styles.column}>
-            <NumberTextBox material label='Border Width' placeholder='base' borderWidth='base' />
-            <NumberTextBox material label='Border Width' placeholder='thick' borderWidth='thick' />
-            <NumberTextBox material label='Border Width' placeholder='3' borderWidth={3}/>
+            <NumericTextBox material label='Border Width' placeholder='base' borderWidth='base' />
+            <NumericTextBox material label='Border Width' placeholder='thick' borderWidth='thick' />
+            <NumericTextBox material label='Border Width' placeholder='3' borderWidth={3}/>
           </View>
         </View>
       </DemoBlock>

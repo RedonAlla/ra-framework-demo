@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Pressable, ColorValue } from 'react-native';
-import Icon from 'ra-icons/dist/icon';
+import Icon from '@flexnative/icons';
 
 import { DARK_OVERLAY, IPrimaryColors, LIGHT_OVERLAY } from '@/constants/colors';
 import FalsyComponent from '@/components/atoms/FalsyComponent';

@@ -1,5 +1,5 @@
 import React from "react";
-import { Spinner } from "ra-icons";
+import { Spinner } from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 
 
@@ -14,7 +14,7 @@ export default class extends React.PureComponent<{}, {}> {
         <Spinner name='moon' size={ICON_SIZE} />
         <Spinner name='trash' size={ICON_SIZE} />
         <Spinner name='grid' size={ICON_SIZE} />
-        <Spinner name='excel-file' size={ICON_SIZE} />
+        <Spinner name='file-excel' size={ICON_SIZE} />
       </DemoBlock>
     );
   }

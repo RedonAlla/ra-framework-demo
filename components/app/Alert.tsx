@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, ColorValue } from 'react-native';
 
-import ThemeContext, { BaseTheme } from 'ra-theme-context';
+import ThemeContext, { BaseTheme } from '@flexnative/theme-context';
 import FalsyComponent from '../atoms/FalsyComponent';
 
 export const GHOST_TRANSPARENCY = '18';

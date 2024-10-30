@@ -3,8 +3,8 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Platform, View, ColorValue } from 'react-native';
 
-import ThemeContext from 'ra-theme-context';
-import BottomSheet from 'ra-bottom-sheet';
+import ThemeContext from '@flexnative/theme-context';
+import BottomSheet from '@flexnative/bottom-sheet';
 
 import { HeaderBackground } from '@/components/layout/headers';
 import BackButton from '@/components/layout/headers/back-button/index.web';

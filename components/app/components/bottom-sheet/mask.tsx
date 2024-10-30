@@ -2,15 +2,15 @@ import React from "react";
 import { BlurTint } from "expo-blur";
 import { View, Text, StyleSheet, ColorValue } from "react-native";
 
-import Button from 'ra-buttons';
-import BottomSheet from "ra-bottom-sheet";
+import Button from '@flexnative/buttons';
+import BottomSheet from "@flexnative/bottom-sheet";
 
 import DemoBlock from "@/components/app/DemoBlock";
 
 import MockContainer from "./mock-container";
 import { OPEN_TIME_OUT } from "./constants";
 import Alert from "../../Alert";
-import ThemeContext from "ra-theme-context";
+import ThemeContext from "@flexnative/theme-context";
 import { GAP } from "../../constants";
 
 

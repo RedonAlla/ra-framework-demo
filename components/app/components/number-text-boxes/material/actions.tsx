@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 import Alert from "@/components/app/Alert";
@@ -13,13 +13,13 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Actions'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='With actions' label='With actions' material />
+            <NumericTextBox placeholder='With actions' label='With actions' material />
           </View>
           <View style={styles.column}>
-            <NumberTextBox placeholder='Without actions' label='Without actions' material actions={false} />
+            <NumericTextBox placeholder='Without actions' label='Without actions' material actions={false} />
           </View>
         </View>
-        <Alert message="As NumberTextBox you can use also the TextBox with property `keyboardType='numeric'`" type="warning"/>
+        <Alert message="As NumericTextBox you can use also the TextBox with property `keyboardType='numeric'`" type="warning"/>
       </DemoBlock>
     );
   }

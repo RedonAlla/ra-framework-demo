@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, Alert, Platform, StyleSheet, ColorValue, StyleProp, TextStyle } from "react-native";
 
-import Icon from "ra-icons/dist/icon";
+import Icon from "@flexnative/icons";
 
-import { Check, StateCallbackType } from "ra-inputs";
+import { Check, StateCallbackType } from "@flexnative/inputs";
 import Example, { ExampleContainer } from "./example-container";
 
 

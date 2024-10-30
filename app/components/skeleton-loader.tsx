@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, ScrollView } from 'react-native';
 
-import SkeletonLoader, { Circle, Rect } from 'ra-skeleton-loading';
+import SkeletonLoader, { Circle, Rect } from '@flexnative/skeleton-loading';
 
 import { HEADER_HEIGHT, PADDING } from '@/constants/sizes';
 import { WEB_MAX_SCREEN_WIDTH } from '@/components/app/constants';

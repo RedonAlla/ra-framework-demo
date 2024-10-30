@@ -1,8 +1,8 @@
 import React from "react";
 import { Alert, StyleSheet } from "react-native";
 
-import Button from 'ra-buttons';
-import Badge from 'ra-badges';
+import Button from '@flexnative/buttons';
+import Badge from '@flexnative/badges';
 
 import { GAP } from "./constants";
 import DemoBlock from "../../DemoBlock";

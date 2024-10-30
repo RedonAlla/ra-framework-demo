@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Check, CheckList } from "ra-inputs";
+import { Check, CheckList } from "@flexnative/inputs";
 import Alert from "@/components/app/Alert";
 import { Block, ExampleContainer } from "../../check-boxes/example-container";
 

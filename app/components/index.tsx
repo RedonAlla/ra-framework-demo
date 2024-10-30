@@ -2,8 +2,8 @@ import React from 'react';
 import { Animated, Text, FlatList, ListRenderItem, Platform, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 
-import { IconName, icons } from 'ra-icons/dist/props';
-import { useThemeContext } from 'ra-theme-context';
+import { IconName, icons } from '@flexnative/icons';
+import { useThemeContext } from '@flexnative/theme-context';
 
 import { HEADER_HEIGHT, PADDING } from '@/constants/sizes';
 import componentsList from '@/constants/components-screens';

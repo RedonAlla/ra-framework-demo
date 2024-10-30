@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, ColorValue, StyleProp, TextStyle } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 import { StateCallbackType } from "ra-inputs/dist/input.props";
@@ -13,10 +13,10 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Prefix style'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox material label='Prefix style' placeholder='Style with StyleProp<TextStyle>' prefix="star" prefixStyle={styles.prefix} />
+            <NumericTextBox material label='Prefix style' placeholder='Style with StyleProp<TextStyle>' prefix="star" prefixStyle={styles.prefix} />
           </View>
           <View style={styles.column}>
-            <NumberTextBox material label='Prefix style' placeholder='Style with function' prefix="star" prefixStyle={prefixStyle('rgb(35, 189, 224)', 'crimson')} />
+            <NumericTextBox material label='Prefix style' placeholder='Style with function' prefix="star" prefixStyle={prefixStyle('rgb(35, 189, 224)', 'crimson')} />
           </View>
         </View>
       </DemoBlock>

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, ColorValue, StyleProp, TextStyle } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import { StateCallbackType } from "ra-inputs/dist/input.props";
 
 import DemoBlock from "@/components/app/DemoBlock";
@@ -14,10 +14,10 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Suffix style'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='Style with StyleProp<TextStyle>' suffix="star" suffixStyle={styles.suffix} />
+            <NumericTextBox placeholder='Style with StyleProp<TextStyle>' suffix="star" suffixStyle={styles.suffix} />
           </View>
           <View style={styles.column}>
-            <NumberTextBox placeholder='Style with function' suffix="star" suffixStyle={suffixStyle('rgb(35, 189, 224)', 'crimson')} />
+            <NumericTextBox placeholder='Style with function' suffix="star" suffixStyle={suffixStyle('rgb(35, 189, 224)', 'crimson')} />
           </View>
         </View>
       </DemoBlock>

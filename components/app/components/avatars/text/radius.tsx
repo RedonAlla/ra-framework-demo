@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar from 'ra-avatar';
+import Avatar from '@flexnative/avatar';
 import DemoBlock from "@/components/app/DemoBlock";
 
 

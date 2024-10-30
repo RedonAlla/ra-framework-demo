@@ -7,7 +7,7 @@ import Colors from '@/constants/colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 import { HeaderBackground } from '@/components/layout/headers';
-import ThemeContext from 'ra-theme-context';
+import ThemeContext from '@flexnative/theme-context';
 import { StatusBar } from 'expo-status-bar';
 
 const isWeb = Platform.OS === 'web';

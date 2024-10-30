@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar, { AvatarGroup } from 'ra-avatar';
+import Avatar, { AvatarGroup } from '@flexnative/avatar';
 import DemoBlock from "@/components/app/DemoBlock";
 import { avatar } from "../avatar";
 

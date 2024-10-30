@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -12,12 +12,12 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Border Color'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='crimson' borderColor='crimson' />
-            <NumberTextBox placeholder='rgb(237, 20, 61)' borderColor='rgb(237, 20, 61)' />
+            <NumericTextBox placeholder='crimson' borderColor='crimson' />
+            <NumericTextBox placeholder='rgb(237, 20, 61)' borderColor='rgb(237, 20, 61)' />
           </View>
           <View style={styles.column}>
-            <NumberTextBox placeholder='rgba(237, 20, 61, 0.5)' borderColor='rgba(237, 20, 61, 0.5)' />
-            <NumberTextBox placeholder='#ed143d' borderColor='#ed143d' />
+            <NumericTextBox placeholder='rgba(237, 20, 61, 0.5)' borderColor='rgba(237, 20, 61, 0.5)' />
+            <NumericTextBox placeholder='#ed143d' borderColor='#ed143d' />
           </View>
         </View>
       </DemoBlock>

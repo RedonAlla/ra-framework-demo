@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
 
@@ -12,12 +12,12 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Active Background Color'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox label='Active Background Color' placeholder='crimson' activeBackgroundColor='crimson' material />
-            <NumberTextBox label='Active Background Color' placeholder='rgb(237, 20, 61)' activeBackgroundColor='rgb(237, 20, 61)' material />
+            <NumericTextBox label='Active Background Color' placeholder='crimson' activeBackgroundColor='crimson' material />
+            <NumericTextBox label='Active Background Color' placeholder='rgb(237, 20, 61)' activeBackgroundColor='rgb(237, 20, 61)' material />
           </View>
           <View style={styles.column}>
-            <NumberTextBox label='Active Background Color' placeholder='rgba(237, 20, 61, 1)' activeBackgroundColor='rgba(237, 20, 61, 1)' material />
-            <NumberTextBox label='Active Background Color' placeholder='#ed143d' activeBackgroundColor='#ed143d' material />
+            <NumericTextBox label='Active Background Color' placeholder='rgba(237, 20, 61, 1)' activeBackgroundColor='rgba(237, 20, 61, 1)' material />
+            <NumericTextBox label='Active Background Color' placeholder='#ed143d' activeBackgroundColor='#ed143d' material />
           </View>
         </View>
       </DemoBlock>

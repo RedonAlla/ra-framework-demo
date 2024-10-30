@@ -2,9 +2,9 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Tabs } from 'expo-router';
 
-import ThemeContext from 'ra-theme-context';
-import Icon from 'ra-icons/dist/icon';
-import { IconName } from 'ra-icons';
+import ThemeContext from '@flexnative/theme-context';
+import Icon from '@flexnative/icons';
+import { IconName } from '@flexnative/icons';
 
 import { HeaderBackground } from '@/components/layout/headers';
 

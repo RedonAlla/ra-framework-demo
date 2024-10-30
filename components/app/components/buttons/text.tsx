@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
-import Button from 'ra-buttons';
+import Button from '@flexnative/buttons';
 
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "../../constants";

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, ColorValue, StyleProp, TextStyle } from "react-native";
 
-import TextBox from 'ra-inputs/dist/text-box';
+import { TextBox } from '@flexnative/inputs';
 import { StateCallbackType } from "ra-inputs/dist/textbox.props";
 
 import DemoBlock from "@/components/app/DemoBlock";

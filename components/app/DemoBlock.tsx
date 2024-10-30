@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, ViewStyle } from 'react-native';
 
-import ThemeContext from 'ra-theme-context';
+import ThemeContext from '@flexnative/theme-context';
 
 
 type CardProps = {

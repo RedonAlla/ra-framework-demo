@@ -1,28 +1,30 @@
 {
   "expo": {
-    "name": "typescript-app",
-    "slug": "typescript-app",
+    "name": "ra-framework-demo",
+    "slug": "ra-framework-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "ra-framework-demo",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "contain"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.redonalla.raframeworkdemo"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "package": "com.redonalla.raframeworkdemo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,17 @@
     "experiments": {
       "typedRoutes": true,
       "baseUrl": "/ra-framework-demo"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "edec0a5b-25c6-4811-8b35-4e2b50d79a6b"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/edec0a5b-25c6-4811-8b35-4e2b50d79a6b"
     }
   }
 }

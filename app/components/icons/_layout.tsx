@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 
-import { icons } from 'ra-icons/dist/props';
+import { icons } from '@flexnative/icons';
 
 import TabLayout, { TabBarIcon } from '@/components/app/components/layout/tab-layout';
 

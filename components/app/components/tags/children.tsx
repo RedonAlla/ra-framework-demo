@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
-import Tag from 'ra-tags';
-import Icon from "ra-icons/dist/icon";
+import Tag from '@flexnative/tags';
+import Icon from "@flexnative/icons";
 import DemoBlock from "@/components/app/DemoBlock";
 
 

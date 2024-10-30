@@ -1,4 +1,4 @@
-import { IconName } from "ra-icons/dist/props";
+import { IconName } from "@flexnative/Icons";
 
 export default [
   {

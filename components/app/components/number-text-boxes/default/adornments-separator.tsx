@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import NumberTextBox from 'ra-inputs/dist/number-text-box';
+import { NumericTextBox } from '@flexnative/inputs';
 
 import DemoBlock from "@/components/app/DemoBlock";
 import { GAP } from "@/components/app/constants";
@@ -13,10 +13,10 @@ export default class extends React.PureComponent<{}, {}> {
       <DemoBlock title='Adornments Separator'>
         <View style={styles.row}>
           <View style={styles.column}>
-            <NumberTextBox placeholder='Prefix Separator' prefix="avatar" prefixSeparator />
+            <NumericTextBox placeholder='Prefix Separator' prefix="avatar" prefixSeparator />
           </View>
           <View style={styles.column}>
-            <NumberTextBox placeholder='Suffix Separator' suffix="avatar" suffixSeparator />
+            <NumericTextBox placeholder='Suffix Separator' suffix="avatar" suffixSeparator />
           </View>
         </View>
       </DemoBlock>
